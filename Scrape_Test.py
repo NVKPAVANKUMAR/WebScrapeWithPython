@@ -1,8 +1,6 @@
 import csv
-
 import urllib2
 from datetime import datetime
-
 from bs4 import BeautifulSoup
 
 quote_page = 'https://www.x-rates.com/calculator/?from=USD&to=INR&amount=1'
