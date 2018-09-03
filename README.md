@@ -1,2 +1,2 @@
 # WebScrapeWithPython
-beautiful soup + python2.7 + urlib2
+Beautiful soup + python2.7 + urlib2
