@@ -1,5 +1,14 @@
+import json
 import unittest
 import requests
+from pprint import pprint
+
+
+def test_readjson(self, data_source):
+    self.datafile = data_source
+    with open('data/json_data.json') as datafile:
+        data = json.load(datafile)
+        return data
 
 
 class TestRequests(unittest.TestCase):
@@ -20,16 +29,17 @@ class TestRequests(unittest.TestCase):
         print(r.content)
 
     def test_post(self):
-        r = requests.post("https://reqres.in/api/users", data={"name": "morpheus",
-                                                               "job": "leader"})
+        data = test_readjson(self, 'data/post_data.json')
+        r = requests.post("https://reqres.in/api/users", data)
+        pprint(r.text)
         try:
             assert r.status_code == 201
         except AssertionError as error:
             print("POST API Failed.", error)
 
     def test_put(self):
-        r = requests.put("https://reqres.in/api/users/2", data={"name": "morpheus",
-                                                                "job": "zion resident"})
+        data = test_readjson(self, "data/put_data.json")
+        r = requests.put("https://reqres.in/api/users/2", data)
         try:
             assert r.status_code == 200
         except AssertionError as error:
@@ -62,14 +72,12 @@ class TestRequests(unittest.TestCase):
         if r.status_code == requests.codes.ok:
             print(r.headers['content-type'])
         commit_data = r.json()
-        # print(commit_data.keys())
         print(commit_data['committer'])
         print(commit_data['message'])
 
-    @unittest.skip("Not working")
+    # information about the communication option available for a resource.
     def test_options_usage(self):
-        verbs = requests.options(
-            'https://api.github.com/repos/requests/requests/git/commits/a050faf084662f3a352dd1a941f2c7c9f886d4ad')
+        verbs = requests.options('http://www.prideparrot.com/aboutme ')
         print(verbs.headers['allow'])
 
     def test_parse_response(self):
