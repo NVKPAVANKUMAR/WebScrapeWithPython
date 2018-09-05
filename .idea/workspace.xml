@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03e9046f-e464-473f-a727-4f8fe25dce43" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/data/json_data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/post_data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/put_data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test Results - Unittests_in_unittestExample_py.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unittestExample.py" beforeDir="false" afterPath="$PROJECT_DIR$/unittestExample.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,6 +14,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExportTestResults" outputFolder="$PROJECT_DIR$" userTempatePath="" />
   <component name="FUSProjectUsageTrigger">
     <session id="-183029703">
       <usages-collector id="statistics.lifecycle.project">
@@ -61,7 +61,7 @@
       <file leaf-file-name="Scrape_Test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Scrape_Test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
+            <state relative-caret-position="325">
               <caret line="13" selection-start-line="13" selection-end-line="13" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
@@ -70,20 +70,53 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RequestsLibrary.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RequestsLibrary.py">
+      <file leaf-file-name="listExample.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/listExample.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+            <state relative-caret-position="275">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="unittestExample.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="unittestExample.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/unittestExample.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1440">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="434">
+              <caret line="116" lean-forward="true" selection-start-line="116" selection-end-line="116" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="434">
+              <caret line="28" column="43" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="43" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.ini" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/configuration/config.ini">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="9" selection-start-column="9" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="patch_data.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/patch_data.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -92,7 +125,7 @@
         <entry file="file://$PROJECT_DIR$/data/put_data.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="50">
-              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+              <caret line="2" column="24" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -100,7 +133,7 @@
       <file leaf-file-name="CurrencyValue.csv" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CurrencyValue.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
+            <state relative-caret-position="350">
               <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
             </state>
           </provider>
@@ -110,7 +143,7 @@
         <entry file="file://$PROJECT_DIR$/data/post_data.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+              <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -123,6 +156,11 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>head</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -138,21 +176,27 @@
         <option value="$PROJECT_DIR$/CurrencyValue.csv" />
         <option value="$PROJECT_DIR$/pip-requirements.txt" />
         <option value="$PROJECT_DIR$/.circleci/config.yml" />
-        <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/Scrape_Test.py" />
         <option value="$PROJECT_DIR$/RequestsLibrary.py" />
         <option value="$PROJECT_DIR$/data/json_data" />
         <option value="$PROJECT_DIR$/data/json_data.json" />
         <option value="$PROJECT_DIR$/data/post_data.json" />
         <option value="$PROJECT_DIR$/data/put_data.json" />
+        <option value="$PROJECT_DIR$/data/patch_data.json" />
+        <option value="$PROJECT_DIR$/listExample.py" />
+        <option value="$PROJECT_DIR$/configuration/config.properties" />
+        <option value="$PROJECT_DIR$/configuration/config.ini" />
         <option value="$PROJECT_DIR$/unittestExample.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/Test.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="676" />
-    <option name="width" value="697" />
-    <option name="height" value="735" />
+    <option name="x" value="716" />
+    <option name="y" value="161" />
+    <option name="width" value="1152" />
+    <option name="height" value="658" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -167,11 +211,6 @@
               <item name="WebScraping" type="b2602c69:ProjectViewProjectNode" />
               <item name="WebScraping" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="WebScraping" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebScraping" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -180,7 +219,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -199,8 +238,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for unittestExample.TestRequests.test_put">
-    <configuration name="Unittests for unittestExample.TestRequests.test_options_usage" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Unittests in Test.py">
+    <configuration name="listExample" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="WebScraping" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/listExample.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="Unittests for Test.TestStringMethods" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="WebScraping" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -210,10 +267,10 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;unittestExample.TestRequests.test_options_usage&quot;" />
+      <option name="_new_target" value="&quot;Test.TestStringMethods&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="Unittests for unittestExample.TestRequests.test_parse_response" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for unittestExample.TestRequests.test_get" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="WebScraping" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -223,10 +280,10 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;unittestExample.TestRequests.test_parse_response&quot;" />
+      <option name="_new_target" value="&quot;unittestExample.TestRequests.test_get&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="Unittests for unittestExample.TestRequests.test_post" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in Test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="WebScraping" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -236,10 +293,10 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;unittestExample.TestRequests.test_post&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
-    <configuration name="Unittests for unittestExample.TestRequests.test_put" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in unittestExample.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="WebScraping" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -249,36 +306,23 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;unittestExample.TestRequests.test_put&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-    </configuration>
-    <configuration name="Unittests for unittestExample.TestRequests.test_readjson" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="WebScraping" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;unittestExample.TestRequests.test_readjson&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/unittestExample.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.Unittests for unittestExample.TestRequests.test_options_usage" />
-      <item itemvalue="Python tests.Unittests for unittestExample.TestRequests.test_parse_response" />
-      <item itemvalue="Python tests.Unittests for unittestExample.TestRequests.test_post" />
-      <item itemvalue="Python tests.Unittests for unittestExample.TestRequests.test_readjson" />
-      <item itemvalue="Python tests.Unittests for unittestExample.TestRequests.test_put" />
+      <item itemvalue="Python.listExample" />
+      <item itemvalue="Python tests.Unittests for unittestExample.TestRequests.test_get" />
+      <item itemvalue="Python tests.Unittests in unittestExample.py" />
+      <item itemvalue="Python tests.Unittests in Test.py" />
+      <item itemvalue="Python tests.Unittests for Test.TestStringMethods" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for unittestExample.TestRequests.test_put" />
-        <item itemvalue="Python tests.Unittests for unittestExample.TestRequests.test_post" />
-        <item itemvalue="Python tests.Unittests for unittestExample.TestRequests.test_readjson" />
-        <item itemvalue="Python tests.Unittests for unittestExample.TestRequests.test_options_usage" />
-        <item itemvalue="Python tests.Unittests for unittestExample.TestRequests.test_parse_response" />
+        <item itemvalue="Python tests.Unittests in Test.py" />
+        <item itemvalue="Python tests.Unittests for Test.TestStringMethods" />
+        <item itemvalue="Python tests.Unittests in unittestExample.py" />
+        <item itemvalue="Python tests.Unittests for unittestExample.TestRequests.test_get" />
+        <item itemvalue="Python.listExample" />
       </list>
     </recent_temporary>
   </component>
@@ -296,60 +340,60 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_unittestExample_TestRequests_test_readjson - 2018.09.05 at 12h 38m 45s.xml">
-      <configuration name="Unittests for unittestExample.TestRequests.test_readjson" configurationId="tests" />
+    <history-entry file="Unittests_in_Test_py - 2018.09.05 at 18h 17m 35s.xml">
+      <configuration name="Unittests in Test.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_unittestExample_TestRequests_test_readjson - 2018.09.05 at 12h 47m 47s.xml">
-      <configuration name="Unittests for unittestExample.TestRequests.test_readjson" configurationId="tests" />
+    <history-entry file="Unittests_in_Test_py - 2018.09.05 at 18h 18m 31s.xml">
+      <configuration name="Unittests in Test.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_unittestExample_TestRequests_test_post - 2018.09.05 at 12h 51m 28s.xml">
-      <configuration name="Unittests for unittestExample.TestRequests.test_post" configurationId="tests" />
+    <history-entry file="Unittests_in_Test_py - 2018.09.05 at 18h 18m 47s.xml">
+      <configuration name="Unittests in Test.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_unittestExample_TestRequests_test_post - 2018.09.05 at 12h 51m 49s.xml">
-      <configuration name="Unittests for unittestExample.TestRequests.test_post" configurationId="tests" />
+    <history-entry file="Unittests_for_Test_TestStringMethods - 2018.09.05 at 18h 19m 50s.xml">
+      <configuration name="Unittests for Test.TestStringMethods" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_unittestExample_TestRequests_test_post - 2018.09.05 at 12h 52m 10s.xml">
-      <configuration name="Unittests for unittestExample.TestRequests.test_post" configurationId="tests" />
+    <history-entry file="Unittests_in_Test_py - 2018.09.05 at 18h 19m 58s.xml">
+      <configuration name="Unittests in Test.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_unittestExample_TestRequests_test_put - 2018.09.05 at 12h 57m 08s.xml">
-      <configuration name="Unittests for unittestExample.TestRequests.test_put" configurationId="tests" />
+    <history-entry file="Unittests_in_Test_py - 2018.09.05 at 18h 25m 18s.xml">
+      <configuration name="Unittests in Test.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_unittestExample_TestRequests_test_put - 2018.09.05 at 13h 04m 53s.xml">
-      <configuration name="Unittests for unittestExample.TestRequests.test_put" configurationId="tests" />
+    <history-entry file="Unittests_in_Test_py - 2018.09.05 at 18h 26m 14s.xml">
+      <configuration name="Unittests in Test.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_unittestExample_TestRequests_test_put - 2018.09.05 at 13h 05m 41s.xml">
-      <configuration name="Unittests for unittestExample.TestRequests.test_put" configurationId="tests" />
+    <history-entry file="Unittests_in_Test_py - 2018.09.05 at 18h 26m 26s.xml">
+      <configuration name="Unittests in Test.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_unittestExample_TestRequests_test_put - 2018.09.05 at 13h 05m 51s.xml">
-      <configuration name="Unittests for unittestExample.TestRequests.test_put" configurationId="tests" />
+    <history-entry file="Unittests_in_Test_py - 2018.09.05 at 18h 28m 31s.xml">
+      <configuration name="Unittests in Test.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_unittestExample_TestRequests_test_put - 2018.09.05 at 13h 06m 00s.xml">
-      <configuration name="Unittests for unittestExample.TestRequests.test_put" configurationId="tests" />
+    <history-entry file="Unittests_in_Test_py - 2018.09.05 at 18h 28m 39s.xml">
+      <configuration name="Unittests in Test.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1522694" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20863836" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="R Packages" order="4" />
       <window_info anchor="right" id="R Graphics" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32913387" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.76850396" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Python Console" order="8" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.7700787" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.81574804" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.8" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32913387" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -357,10 +401,69 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="6" />
+      <option name="time" value="9" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/listExample.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RequestsLibrary.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configuration/config.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/patch_data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/put_data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CurrencyValue.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/post_data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unittestExample.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2750">
+          <caret line="115" lean-forward="true" selection-start-line="115" selection-end-line="115" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Scrape_Test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
@@ -543,23 +646,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="15" lean-forward="true" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scrape_Test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -577,13 +663,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/json_data">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/data/json_data" />
     <entry file="file://$PROJECT_DIR$/data/json_data.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
@@ -593,7 +673,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CurrencyValue.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
+        <state relative-caret-position="350">
           <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
         </state>
       </provider>
@@ -601,21 +681,86 @@
     <entry file="file://$PROJECT_DIR$/data/post_data.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data/put_data.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrape_Test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configuration/config.properties" />
+    <entry file="file://$PROJECT_DIR$/data/patch_data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configuration/config.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test Results - Unittests_in_unittestExample_py.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python27/site-packages/HtmlTestRunner/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python27/site-packages/HtmlTestRunner/runner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/listExample.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/unittestExample.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1440">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="434">
+          <caret line="116" lean-forward="true" selection-start-line="116" selection-end-line="116" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="15" lean-forward="true" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="28" column="43" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

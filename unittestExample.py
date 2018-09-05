@@ -1,27 +1,42 @@
 import json
 import unittest
+
+from pyunitreport import HTMLTestRunner
 import requests
 from pprint import pprint
+import ConfigParser
 
 
-def test_readjson(self, data_source):
-    self.datafile = data_source
-    with open('data/json_data.json') as datafile:
+def test_read_json(self, data_source):
+    with open(data_source) as datafile:
         data = json.load(datafile)
         return data
 
 
+def test_config_parser(self, header, parameter):
+    config = ConfigParser.ConfigParser()
+    config.read("configuration/config.ini")
+    return config.get(header, parameter)
+
+
 class TestRequests(unittest.TestCase):
 
+    @classmethod
+    def setUpClass(cls):
+        cls.api_baseurl = "https://reqres.in"
+
     def test_get(self):
-        r = requests.get("https://reqres.in/api/login", auth=('peter@klaven', 'cityslicka'))
+        usn = test_config_parser(self, "Credentials", "username")
+        pas = test_config_parser(self, "Credentials", "password")
+        r = requests.get(self.api_baseurl + "/api/login",
+                         auth=(usn, pas))
         try:
             assert r.status_code == 200
         except AssertionError as error:
             print("GET API Failed.", error)
 
     def test_get_singleUser(self):
-        r = requests.get("https://reqres.in/api/users/2")
+        r = requests.get(self.api_baseurl + "/api/users/2")
         try:
             assert r.status_code == 200
         except AssertionError as error:
@@ -29,8 +44,8 @@ class TestRequests(unittest.TestCase):
         print(r.content)
 
     def test_post(self):
-        data = test_readjson(self, 'data/post_data.json')
-        r = requests.post("https://reqres.in/api/users", data)
+        data = test_read_json(self, 'data/post_data.json')
+        r = requests.post(self.api_baseurl + "/api/users", data)
         pprint(r.text)
         try:
             assert r.status_code == 201
@@ -38,22 +53,25 @@ class TestRequests(unittest.TestCase):
             print("POST API Failed.", error)
 
     def test_put(self):
-        data = test_readjson(self, "data/put_data.json")
-        r = requests.put("https://reqres.in/api/users/2", data)
+        data = test_read_json(self, "data/patch_data.json")
+        r = requests.put(self.api_baseurl + "/api/users/2", data)
+        pprint(r.text)
         try:
             assert r.status_code == 200
         except AssertionError as error:
             print("PUT API Failed.", error)
 
     def test_patch(self):
-        r = requests.patch("https://reqres.in/api/users/2", data={"job": "leader"})
+        data = test_read_json(self, "data/patch_data.json")
+        r = requests.patch(self.api_baseurl + "/api/users/2", data)
+        pprint(r.text)
         try:
             assert r.status_code == 200
         except AssertionError as error:
             print("PUT API Failed.", error)
 
     def test_delete(self):
-        r = requests.delete('https://reqres.in/api/users/2')
+        r = requests.delete(self.api_baseurl + '/api/users/2')
         try:
             assert r.status_code == 204
         except AssertionError as error:
@@ -61,7 +79,7 @@ class TestRequests(unittest.TestCase):
 
     def test_pass_parameter_url(self):
         payload = {'page': '2'}
-        r = requests.get('https://reqres.in/api/users', params=payload)
+        r = requests.get(self.api_baseurl + '/api/users', params=payload)
         print(r.headers)
         print("------------------------------------------------------------------")
         print(r.request.headers)
@@ -72,13 +90,17 @@ class TestRequests(unittest.TestCase):
         if r.status_code == requests.codes.ok:
             print(r.headers['content-type'])
         commit_data = r.json()
-        print(commit_data['committer'])
-        print(commit_data['message'])
+        pprint(commit_data['committer'])
+        pprint(commit_data['message'])
 
     # information about the communication option available for a resource.
     def test_options_usage(self):
         verbs = requests.options('http://www.prideparrot.com/aboutme ')
-        print(verbs.headers['allow'])
+        pprint(verbs.headers['allow'])
+
+    def test_head_usage(self):
+        verbs = requests.head('http://www.prideparrot.com/aboutme ')
+        pprint(verbs.headers)
 
     def test_parse_response(self):
         r = requests.get('https://api.github.com/repos/requests/requests/issues/482')
@@ -88,3 +110,7 @@ class TestRequests(unittest.TestCase):
         comments = r.json()
         self.assertNotEqual(comments['labels'][0]['name'], None)
         assert comments['labels'][0]['name'] is not None
+
+
+if __name__ == '__main__':
+    unittest.main(testRunner= HTMLTestRunner(output="example_dir"))
