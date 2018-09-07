@@ -1,10 +1,10 @@
 import json
 import unittest
-
-from pyunitreport import HTMLTestRunner
+import HtmlTestRunner
 import requests
 from pprint import pprint
 import ConfigParser
+import os
 
 
 def test_read_json(self, data_source):
@@ -17,6 +17,14 @@ def test_config_parser(self, header, parameter):
     config = ConfigParser.ConfigParser()
     config.read("configuration/config.ini")
     return config.get(header, parameter)
+
+
+def test_download(self, url, output_filepath):
+    response = requests.get(url, stream=True)
+    handle = open(output_filepath, 'wb')
+    for chunk in response.iter_content(chunk_size=512):
+        handle.write(chunk)
+    assert os.path.getsize(output_filepath) is not 0
 
 
 class TestRequests(unittest.TestCase):
@@ -95,11 +103,12 @@ class TestRequests(unittest.TestCase):
 
     # information about the communication option available for a resource.
     def test_options_usage(self):
-        verbs = requests.options('http://www.prideparrot.com/aboutme ')
+        verbs = requests.options('http://www.prideparrot.com/aboutme')
         pprint(verbs.headers['allow'])
 
+    # status of the resource and HTTP header information
     def test_head_usage(self):
-        verbs = requests.head('http://www.prideparrot.com/aboutme ')
+        verbs = requests.head('http://www.prideparrot.com/aboutme')
         pprint(verbs.headers)
 
     def test_parse_response(self):
@@ -111,6 +120,18 @@ class TestRequests(unittest.TestCase):
         self.assertNotEqual(comments['labels'][0]['name'], None)
         assert comments['labels'][0]['name'] is not None
 
+    def test_post_multipart_encoded_file_upload(self):
+        url = 'http://httpbin.org/post'
+        files = {'file': open('C:/Users/pavan.nemalikanti/Documents/sample_upload.txt', 'rb')}
+        r = requests.post(url, files=files)
+        pprint(r.text)
+
+    def test_download_file(self):
+        url = "https://demo.silverstripe.org/Security/login?BackURL=%2Fadmin%2Fpages%2F"
+        google_url = 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png'
+        test_download(self, url, "downloaded_data.html")
+        test_download(self, google_url, 'google_logo.jpg')
+
 
 if __name__ == '__main__':
-    unittest.main(testRunner= HTMLTestRunner(output="example_dir"))
+    unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(output="example_dir"))
