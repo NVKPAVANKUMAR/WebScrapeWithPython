@@ -1,0 +1,22 @@
+import csv
+import urllib2
+from datetime import datetime
+from bs4 import BeautifulSoup
+
+
+
+def test_currency_value():
+    quote_page = 'https://www.x-rates.com/calculator/?from=USD&to=INR&amount=1'
+    page = urllib2.urlopen(quote_page)
+    soup = BeautifulSoup(page, 'html.parser')
+    price_box = soup.find('span', attrs={"class": 'ccOutputRslt'})
+    price = price_box.text.strip("INR")
+    with open("CurrencyValue.csv", 'ab') as csv_file:
+        # initial_rows = len(csv_file.readlines())
+        writer = csv.writer(csv_file)
+        writer.writerow(["USD2INR", price, datetime.now()])
+    #  final_rows = len(csv_file.readlines())
+    #  assert initial_rows != final_rows
+
+
+
