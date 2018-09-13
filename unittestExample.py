@@ -6,6 +6,9 @@ from pprint import pprint
 import ConfigParser
 import os
 
+from requests import HTTPError
+from zeep import Client
+
 
 def read_json(self, data_source):
     with open(data_source) as datafile:
@@ -104,7 +107,7 @@ class TestRequests(unittest.TestCase):
     # information about the communication option available for a resource.
     def test_options_usage(self):
         verbs = requests.options('http://www.prideparrot.com/aboutme')
-        pprint(verbs.headers['allow'])
+        pprint(verbs.headers["Server"])
 
     # status of the resource and HTTP header information
     def test_head_usage(self):
@@ -131,6 +134,20 @@ class TestRequests(unittest.TestCase):
         google_url = 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png'
         download(self, url, "downloaded_data.html")
         download(self, google_url, 'google_logo.jpg')
+
+    def test_mock_api(self):
+        try:
+            url = "http://demo8060361.mockable.io/api/users/{0}".format(1)
+            r = requests.options(url=url)
+            print(r.text)
+            print(r.headers["allow"])
+        except HTTPError as e:
+            print(e.message)
+
+    def test_parse_json(self):
+        with open("data/json_data.json") as f:
+            data = json.load(f)
+        assert (data["members"][1]["powers"][2]) == "Superhuman reflexes"
 
 
 if __name__ == '__main__':

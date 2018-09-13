@@ -1,3 +1,7 @@
 [
+<<<<<<< HEAD
   "Scrape_Test.py::CurrencyValueScrape::test_scrape"
+=======
+  "unittestExample.py::TestRequests::test_parse_json"
+>>>>>>> 1e7ba4914f0557bee88c6d130eb1f0e5e71781e2
 ]
