@@ -1,3 +1,3 @@
 [
-  "unittestExample.py::TestRequests::test_parse_json"
+  "unittestExample.py::TestRequests::test_post_api"
 ]

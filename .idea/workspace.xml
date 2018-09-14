@@ -3,8 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="f8e62347-fdf5-4659-a445-b3b0df7ea63b" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.pytest_cache/v/cache/lastfailed" beforeDir="false" afterPath="$PROJECT_DIR$/.pytest_cache/v/cache/lastfailed" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.pytest_cache/v/cache/nodeids" beforeDir="false" afterPath="$PROJECT_DIR$/.pytest_cache/v/cache/nodeids" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CurrencyValue.csv" beforeDir="false" afterPath="$PROJECT_DIR$/CurrencyValue.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExcelParse.py" beforeDir="false" afterPath="$PROJECT_DIR$/ExcelParse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scrape_Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scrape_Test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/post_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/post_data.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/downloaded_data.html" beforeDir="false" afterPath="$PROJECT_DIR$/downloaded_data.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unittestExample.py" beforeDir="false" afterPath="$PROJECT_DIR$/unittestExample.py" afterDir="false" />
     </list>
@@ -61,8 +64,8 @@
       <file leaf-file-name="Scrape_Test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Scrape_Test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="125">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="12" selection-end-column="55" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -70,44 +73,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="unittestExample.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="unittestExample.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/unittestExample.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="149" column="73" selection-start-line="149" selection-start-column="73" selection-end-line="149" selection-end-column="73" />
+            <state relative-caret-position="3550">
+              <caret line="151" selection-start-line="151" selection-end-line="151" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="json_data.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/json_data.json">
+      <file leaf-file-name="post_data.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/post_data.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="24" column="29" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ExcelParse.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ExcelParse.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="50">
-                <caret line="2" selection-start-line="2" selection-end-line="2" />
-              </first_editor>
-              <second_editor />
+            <state relative-caret-position="50">
+              <caret line="2" column="6" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -121,6 +100,27 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Scrape_Test_Weather.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Scrape_Test_Weather.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="12" column="67" lean-forward="true" selection-start-line="12" selection-start-column="67" selection-end-line="12" selection-end-column="67" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="weather_update.csv" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/weather_update.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -129,6 +129,11 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>post</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -142,17 +147,20 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/CurrencyValue.csv" />
-        <option value="$PROJECT_DIR$/Scrape_Test.py" />
         <option value="$PROJECT_DIR$/pip-requirements.txt" />
         <option value="$PROJECT_DIR$/.circleci/config.yml" />
         <option value="$PROJECT_DIR$/ExcelParse.py" />
+        <option value="$PROJECT_DIR$/data/post_data.json" />
+        <option value="$PROJECT_DIR$/data/mock_post_api.json" />
         <option value="$PROJECT_DIR$/unittestExample.py" />
+        <option value="$PROJECT_DIR$/Scrape_Test.py" />
+        <option value="$PROJECT_DIR$/Scrape_Test_Weather.py" />
+        <option value="$PROJECT_DIR$/weather_update.csv" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="676" />
     <option name="width" value="697" />
     <option name="height" value="735" />
   </component>
@@ -169,11 +177,6 @@
             <path>
               <item name="WebScraping" type="b2602c69:ProjectViewProjectNode" />
               <item name="WebScraping" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebScraping" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebScraping" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -201,36 +204,44 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.py.test for unittestExample.TestRequests.test_parse_json">
-    <configuration name="py.test for ExcelParse.ExcelParse" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Scrape_Test_Weather">
+    <configuration name="Scrape_Test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="WebScraping" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;ExcelParse.ExcelParse&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Scrape_Test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="py.test for unittestExample.TestRequests.test_mock_api" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="Scrape_Test_Weather" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="WebScraping" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;unittestExample.TestRequests.test_mock_api&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Scrape_Test_Weather.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="py.test for unittestExample.TestRequests.test_options_usage" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="py.test for unittestExample.TestRequests.test_get_api" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="WebScraping" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -241,7 +252,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;unittestExample.TestRequests.test_options_usage&quot;" />
+      <option name="_new_target" value="&quot;unittestExample.TestRequests.test_get_api&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
     <configuration name="py.test for unittestExample.TestRequests.test_parse_json" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
@@ -258,7 +269,7 @@
       <option name="_new_target" value="&quot;unittestExample.TestRequests.test_parse_json&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="py.test for unittestExample.TestRequests.test_soap_wsdl" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="py.test for unittestExample.TestRequests.test_post_api" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="WebScraping" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -269,23 +280,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;unittestExample.TestRequests.test_soap_wsdl&quot;" />
+      <option name="_new_target" value="&quot;unittestExample.TestRequests.test_post_api&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.py.test for unittestExample.TestRequests.test_options_usage" />
-      <item itemvalue="Python tests.py.test for unittestExample.TestRequests.test_soap_wsdl" />
-      <item itemvalue="Python tests.py.test for ExcelParse.ExcelParse" />
-      <item itemvalue="Python tests.py.test for unittestExample.TestRequests.test_mock_api" />
       <item itemvalue="Python tests.py.test for unittestExample.TestRequests.test_parse_json" />
+      <item itemvalue="Python tests.py.test for unittestExample.TestRequests.test_post_api" />
+      <item itemvalue="Python tests.py.test for unittestExample.TestRequests.test_get_api" />
+      <item itemvalue="Python.Scrape_Test" />
+      <item itemvalue="Python.Scrape_Test_Weather" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Scrape_Test_Weather" />
+        <item itemvalue="Python.Scrape_Test" />
+        <item itemvalue="Python tests.py.test for unittestExample.TestRequests.test_post_api" />
+        <item itemvalue="Python tests.py.test for unittestExample.TestRequests.test_get_api" />
         <item itemvalue="Python tests.py.test for unittestExample.TestRequests.test_parse_json" />
-        <item itemvalue="Python tests.py.test for unittestExample.TestRequests.test_mock_api" />
-        <item itemvalue="Python tests.py.test for ExcelParse.ExcelParse" />
-        <item itemvalue="Python tests.py.test for unittestExample.TestRequests.test_soap_wsdl" />
-        <item itemvalue="Python tests.py.test for unittestExample.TestRequests.test_options_usage" />
       </list>
     </recent_temporary>
   </component>
@@ -303,47 +314,47 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_for_unittestExample_TestRequests_test_parse_json - 2018.09.11 at 18h 40m 10s.xml">
-      <configuration name="py.test for unittestExample.TestRequests.test_parse_json" configurationId="tests" />
+    <history-entry file="py_test_for_unittestExample_TestRequests_test_post_api - 2018.09.12 at 15h 08m 24s.xml">
+      <configuration name="py.test for unittestExample.TestRequests.test_post_api" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_for_unittestExample_TestRequests_test_parse_json - 2018.09.11 at 18h 40m 29s.xml">
-      <configuration name="py.test for unittestExample.TestRequests.test_parse_json" configurationId="tests" />
+    <history-entry file="py_test_for_unittestExample_TestRequests_test_post_api - 2018.09.12 at 15h 09m 43s.xml">
+      <configuration name="py.test for unittestExample.TestRequests.test_post_api" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_for_unittestExample_TestRequests_test_parse_json - 2018.09.11 at 18h 40m 47s.xml">
-      <configuration name="py.test for unittestExample.TestRequests.test_parse_json" configurationId="tests" />
+    <history-entry file="py_test_for_unittestExample_TestRequests_test_post_api - 2018.09.12 at 15h 11m 19s.xml">
+      <configuration name="py.test for unittestExample.TestRequests.test_post_api" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_for_unittestExample_TestRequests_test_parse_json - 2018.09.11 at 18h 45m 23s.xml">
-      <configuration name="py.test for unittestExample.TestRequests.test_parse_json" configurationId="tests" />
+    <history-entry file="py_test_for_unittestExample_TestRequests_test_post_api - 2018.09.12 at 15h 11m 32s.xml">
+      <configuration name="py.test for unittestExample.TestRequests.test_post_api" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_for_unittestExample_TestRequests_test_parse_json - 2018.09.11 at 18h 56m 06s.xml">
-      <configuration name="py.test for unittestExample.TestRequests.test_parse_json" configurationId="tests" />
+    <history-entry file="py_test_for_unittestExample_TestRequests_test_get_api - 2018.09.12 at 15h 11m 44s.xml">
+      <configuration name="py.test for unittestExample.TestRequests.test_get_api" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_for_unittestExample_TestRequests_test_parse_json - 2018.09.11 at 18h 56m 14s.xml">
-      <configuration name="py.test for unittestExample.TestRequests.test_parse_json" configurationId="tests" />
+    <history-entry file="py_test_for_unittestExample_TestRequests_test_post_api - 2018.09.12 at 15h 12m 34s.xml">
+      <configuration name="py.test for unittestExample.TestRequests.test_post_api" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_for_unittestExample_TestRequests_test_parse_json - 2018.09.11 at 18h 57m 01s.xml">
-      <configuration name="py.test for unittestExample.TestRequests.test_parse_json" configurationId="tests" />
+    <history-entry file="py_test_for_unittestExample_TestRequests_test_post_api - 2018.09.12 at 15h 13m 34s.xml">
+      <configuration name="py.test for unittestExample.TestRequests.test_post_api" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_for_unittestExample_TestRequests_test_parse_json - 2018.09.11 at 18h 58m 30s.xml">
-      <configuration name="py.test for unittestExample.TestRequests.test_parse_json" configurationId="tests" />
+    <history-entry file="py_test_for_unittestExample_TestRequests_test_post_api - 2018.09.12 at 15h 13m 57s.xml">
+      <configuration name="py.test for unittestExample.TestRequests.test_post_api" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_for_unittestExample_TestRequests_test_parse_json - 2018.09.11 at 18h 59m 02s.xml">
-      <configuration name="py.test for unittestExample.TestRequests.test_parse_json" configurationId="tests" />
+    <history-entry file="py_test_for_unittestExample_TestRequests_test_post_api - 2018.09.12 at 15h 17m 58s.xml">
+      <configuration name="py.test for unittestExample.TestRequests.test_post_api" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_for_unittestExample_TestRequests_test_parse_json - 2018.09.11 at 19h 00m 34s.xml">
-      <configuration name="py.test for unittestExample.TestRequests.test_parse_json" configurationId="tests" />
+    <history-entry file="py_test_for_unittestExample_TestRequests_test_post_api - 2018.09.12 at 15h 18m 14s.xml">
+      <configuration name="py.test for unittestExample.TestRequests.test_post_api" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2819383" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2907489" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="R Packages" order="4" />
       <window_info anchor="right" id="R Graphics" order="3" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32913387" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.9070866" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4456693" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Python Console" order="8" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -375,29 +386,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CurrencyValue.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scrape_Test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scrape_Test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CurrencyValue.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="457">
@@ -534,13 +522,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/put_data.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/configuration/config.properties" />
     <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python27/site-packages/HtmlTestRunner/runner.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -578,13 +559,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/patch_data.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Scrape_Test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7">
@@ -614,16 +588,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="50">
-            <caret line="2" selection-start-line="2" selection-end-line="2" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/RequestsLibrary.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
@@ -638,24 +602,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CurrencyValue.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/configuration/config.ini">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/post_data.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -665,40 +615,102 @@
     <entry file="file://$PROJECT_DIR$/reports/example_dir/Test_TestRequests_2018-09-11_11-57-00.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scrape_Test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Test Results - Unittests_in_unittestExample_py.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="50">
+            <caret line="2" selection-start-line="2" selection-end-line="2" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ExcelParse.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+        <state relative-caret-position="275">
+          <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/data/patch_data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/put_data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/data/json_data.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="24" column="29" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="29" />
+        <state relative-caret-position="-64">
+          <caret line="20" column="38" lean-forward="true" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/mock_post_api.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/post_data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/unittestExample.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="149" column="73" selection-start-line="149" selection-start-column="73" selection-end-line="149" selection-end-column="73" />
+        <state relative-caret-position="3550">
+          <caret line="151" selection-start-line="151" selection-end-line="151" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CurrencyValue.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrape_Test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="12" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrape_Test_Weather.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="12" column="67" lean-forward="true" selection-start-line="12" selection-start-column="67" selection-end-line="12" selection-end-column="67" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather_update.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>

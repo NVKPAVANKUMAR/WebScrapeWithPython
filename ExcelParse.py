@@ -1,6 +1,7 @@
 import unittest
 from openpyxl import load_workbook
 
+
 class ExcelParse(unittest.TestCase):
     def test_parse_excel(self):
         wb = load_workbook('dataEngine.xlsx')

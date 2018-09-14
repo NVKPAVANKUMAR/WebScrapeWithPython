@@ -149,6 +149,20 @@ class TestRequests(unittest.TestCase):
             data = json.load(f)
         assert (data["members"][1]["powers"][2]) == "Superhuman reflexes"
 
+    def test_post_api(self):
+        data = {'name': ['football', 'basketball'], 'job': ['leader', 'follower']}
+        r = requests.post(self.api_baseurl + "/api/users", data)
+        print(r.text)
+        try:
+            assert r.status_code == 201
+        except AssertionError as error:
+            print("POST API Failed.", error)
+
+    def test_get_api(self):
+        url = 'http://pjody.mocklab.io/json/1'
+        r = requests.get(url=url)
+        assert r.status_code == 200
+
 
 if __name__ == '__main__':
     unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(output="example_dir"))
