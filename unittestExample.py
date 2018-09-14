@@ -125,9 +125,9 @@ class TestRequests(unittest.TestCase):
 
     def test_post_multipart_encoded_file_upload(self):
         url = 'http://httpbin.org/post'
-        files = {'file': open('C:/Users/pavan.nemalikanti/Documents/sample_upload.txt', 'rb')}
+        files = {'file': open('google_logo.jpg', 'rb')}
         r = requests.post(url, files=files)
-        pprint(r.text)
+        assert r.status_code == 200
 
     def test_download_file(self):
         url = "https://demo.silverstripe.org/Security/login?BackURL=%2Fadmin%2Fpages%2F"
