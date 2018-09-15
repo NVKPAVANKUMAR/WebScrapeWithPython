@@ -7,9 +7,8 @@ from bs4 import BeautifulSoup
 import unittest
 
 
-class CurrencyValueScrape(unittest.TestCase):
-
-    def test_scrape(self):
+class TestGetWeather(unittest.TestCase):
+    def test_currency_value(self):
         quote_page = 'https://www.x-rates.com/calculator/?from=USD&to=INR&amount=1'
         page = urllib2.urlopen(quote_page)
         soup = BeautifulSoup(page, 'html.parser')

@@ -7,7 +7,6 @@ import ConfigParser
 import os
 
 from requests import HTTPError
-from zeep import Client
 
 
 def read_json(self, data_source):
