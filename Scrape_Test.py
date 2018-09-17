@@ -1,4 +1,5 @@
 import csv
+import urllib
 import urllib2
 from datetime import datetime
 
@@ -7,11 +8,17 @@ from bs4 import BeautifulSoup
 import unittest
 
 
-class TestGetWeather(unittest.TestCase):
+class TestGetConversionValue(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        cls.api_base_url = 'https://www.x-rates.com/calculator/'
+
     def test_currency_value(self):
-        quote_page = 'https://www.x-rates.com/calculator/?from=USD&to=INR&amount=1'
-        page = urllib2.urlopen(quote_page)
-        soup = BeautifulSoup(page, 'html.parser')
+        query_args = {'from': 'USD', 'to': 'INR', 'amount': '1'}
+        data = urllib.urlencode(query_args)
+        request = urllib2.Request(self.api_base_url, data)
+        response = urllib2.urlopen(request)
+        soup = BeautifulSoup(response, 'html.parser')
         price_box = soup.find('span', attrs={"class": 'ccOutputRslt'})
         price = price_box.text.strip("INR")
         with open("CurrencyValue.csv", 'ab') as csv_file:

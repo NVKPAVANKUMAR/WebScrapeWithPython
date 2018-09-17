@@ -1,3 +1,3 @@
 [
-  "unittestExample.py::TestRequests::test_post_api"
+  "Scrape_Test_Weather.py::TestGetWeather::test_currency_value"
 ]
