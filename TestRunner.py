@@ -1,4 +1,3 @@
-# tests/runner.py
 import unittest
 
 # import your test modules
