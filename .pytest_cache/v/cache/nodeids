@@ -1,3 +1,3 @@
 [
-  "Scrape_Test.py::TestGetConversionValue::test_currency_value"
+  "Scrape_Test_Weather.py::GetWeather::test_weather_status"
 ]

@@ -19,7 +19,7 @@ class TestGetConversionValue(unittest.TestCase):
         soup = BeautifulSoup(response.data, 'html.parser')
         price_box = soup.find('span', attrs={"class": 'ccOutputRslt'})
         price = price_box.text.strip("INR")
-        with open("CurrencyValue.csv", 'ab') as csv_file:
+        with open("CurrencyValue.csv", 'a') as csv_file:
             writer = csv.writer(csv_file)
             writer.writerow(["USD2INR", price, datetime.now()])
 
