@@ -3,7 +3,7 @@ import unittest
 import HtmlTestRunner
 import requests
 from pprint import pprint
-import ConfigParser
+import configparser
 import os
 
 from requests import HTTPError
@@ -16,7 +16,7 @@ def read_json(self, data_source):
 
 
 def config_parser(self, header, parameter):
-    config = ConfigParser.ConfigParser()
+    config = configparser.ConfigParser()
     config.read("configuration/config.ini")
     return config.get(header, parameter)
 
