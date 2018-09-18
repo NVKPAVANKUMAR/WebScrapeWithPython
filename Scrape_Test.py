@@ -1,11 +1,11 @@
 import csv
+import unittest
 import urllib
 import urllib2
 from datetime import datetime
 
 import HtmlTestRunner
 from bs4 import BeautifulSoup
-import unittest
 
 
 class TestGetConversionValue(unittest.TestCase):
@@ -16,8 +16,7 @@ class TestGetConversionValue(unittest.TestCase):
     def test_currency_value(self):
         query_args = {'from': 'USD', 'to': 'INR', 'amount': '1'}
         data = urllib.urlencode(query_args)
-        request = urllib2.Request(self.api_base_url, data)
-        response = urllib2.urlopen(request)
+        response = urllib2.urlopen(self.api_base_url, data)
         soup = BeautifulSoup(response, 'html.parser')
         price_box = soup.find('span', attrs={"class": 'ccOutputRslt'})
         price = price_box.text.strip("INR")

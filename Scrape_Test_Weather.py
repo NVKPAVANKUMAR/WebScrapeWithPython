@@ -1,5 +1,5 @@
 import csv
-import urllib2
+import urllib
 from datetime import datetime
 from bs4 import BeautifulSoup
 import unittest
@@ -12,8 +12,7 @@ class TestGetWeather(unittest.TestCase):
         cls.api_base_url = 'https://weather.com/en-IN/weather/today/l/INKA0259:1:IN'
 
     def test_currency_value(self):
-        request = urllib2.Request(self.api_base_url)
-        response = urllib2.urlopen(request)
+        response = urllib.urlopen(self.api_base_url)
         soup = BeautifulSoup(response, 'html.parser')
         weather_status = soup.find('div', attrs={"class": 'today_nowcard-phrase'})
         current_weather = weather_status.text.strip("")
