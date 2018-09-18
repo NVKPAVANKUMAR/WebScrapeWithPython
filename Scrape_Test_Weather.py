@@ -17,8 +17,9 @@ class GetWeather(unittest.TestCase):
         response = http.request('GET', self.api_base_url)
         soup = BeautifulSoup(response.data, 'html.parser')
         weather_status = soup.find('div', attrs={"class": 'today_nowcard-phrase'})
-        current_weather = weather_status.text.strip("")
-        with open("weather_update.csv", 'a') as csv_file:
+        current_weather = weather_status.text
+        print(current_weather)
+        with open("weather_update.csv", 'ab') as csv_file:
             writer = csv.writer(csv_file)
             writer.writerow(["BANGALORE", current_weather, datetime.now().strftime("%d-%m-%y %I:%M %p")])
 
