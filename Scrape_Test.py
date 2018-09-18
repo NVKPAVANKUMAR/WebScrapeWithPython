@@ -16,7 +16,7 @@ class TestGetConversionValue(unittest.TestCase):
     def test_currency_value(self):
         http = urllib3.PoolManager()
         response = http.request('POST', self.api_base_url, fields={'from': 'USD', 'to': 'INR', 'amount': '1'})
-        soup = BeautifulSoup(response.data, features="lxml")
+        soup = BeautifulSoup(response.data, 'html.parser')
         price_box = soup.find('span', attrs={"class": 'ccOutputRslt'})
         price = price_box.text.strip("INR")
         with open("CurrencyValue.csv", 'ab') as csv_file:

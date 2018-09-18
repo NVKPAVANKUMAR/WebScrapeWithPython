@@ -4,12 +4,8 @@
     <list default="true" id="01e9505b-7257-4ceb-aced-eafb19a1a655" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.pytest_cache/v/cache/lastfailed" beforeDir="false" afterPath="$PROJECT_DIR$/.pytest_cache/v/cache/lastfailed" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CurrencyValue.csv" beforeDir="false" afterPath="$PROJECT_DIR$/CurrencyValue.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scrape_Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scrape_Test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pytest_cache/v/cache/nodeids" beforeDir="false" afterPath="$PROJECT_DIR$/.pytest_cache/v/cache/nodeids" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scrape_Test_Weather.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scrape_Test_Weather.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_temp.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test_temp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather_update.csv" beforeDir="false" afterPath="$PROJECT_DIR$/weather_update.csv" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -75,7 +71,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CurrencyValue.csv" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CurrencyValue.csv" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CurrencyValue.csv">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="457">
@@ -123,11 +119,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Scrape_Test_Weather.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Scrape_Test_Weather.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Scrape_Test_Weather.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="59" />
+            <state relative-caret-position="25">
+              <caret line="17" column="52" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -172,12 +168,12 @@
         <option value="$PROJECT_DIR$/.circleci/config.yml" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/Test_temp.py" />
-        <option value="$PROJECT_DIR$/Scrape_Test_Weather.py" />
         <option value="$PROJECT_DIR$/Scrape_Test.py" />
+        <option value="$PROJECT_DIR$/Scrape_Test_Weather.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="676" />
     <option name="width" value="697" />
     <option name="height" value="735" />
@@ -233,7 +229,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.py.test for Scrape_Test.TestGetConversionValue.test_currency_value">
+  <component name="RunManager" selected="Python tests.py.test for Scrape_Test_Weather.GetWeather">
     <configuration name="py.test for Scrape_Test.TestGetConversionValue.test_currency_value" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="WebScraping" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -313,11 +309,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.py.test for Scrape_Test_Weather.GetWeather" />
         <item itemvalue="Python tests.py.test for Scrape_Test.TestGetConversionValue.test_currency_value" />
         <item itemvalue="Python tests.py.test for Scrape_Test_Weather.GetWeather.test_weather_status" />
         <item itemvalue="Python tests.py.test for Test_temp.TestRequests.test_get_api" />
         <item itemvalue="Python tests.py.test for Test_temp.TestRequests" />
-        <item itemvalue="Python tests.py.test for Scrape_Test_Weather.GetWeather" />
       </list>
     </recent_temporary>
   </component>
@@ -335,9 +331,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_for_Test_temp_TestRequests_test_get_api - 2018.09.18 at 13h 28m 12s.xml">
-      <configuration name="py.test for Test_temp.TestRequests.test_get_api" configurationId="tests" />
-    </history-entry>
     <history-entry file="py_test_for_Scrape_Test_Weather_GetWeather_test_weather_status - 2018.09.18 at 13h 30m 07s.xml">
       <configuration name="py.test for Scrape_Test_Weather.GetWeather.test_weather_status" configurationId="tests" />
     </history-entry>
@@ -365,12 +358,15 @@
     <history-entry file="py_test_for_Scrape_Test_TestGetConversionValue_test_currency_value - 2018.09.18 at 15h 08m 47s.xml">
       <configuration name="py.test for Scrape_Test.TestGetConversionValue.test_currency_value" configurationId="tests" />
     </history-entry>
+    <history-entry file="py_test_for_Scrape_Test_Weather_GetWeather - 2018.09.18 at 15h 18m 27s.xml">
+      <configuration name="py.test for Scrape_Test_Weather.GetWeather" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17642753" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17642753" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="R Packages" order="4" />
       <window_info anchor="right" id="R Graphics" order="3" />
@@ -380,7 +376,7 @@
       <window_info anchor="bottom" id="Python Console" order="8" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.6566929" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.798722" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.7984252" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -665,13 +661,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/unittestExample.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-616">
@@ -696,13 +685,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scrape_Test_Weather.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Scrape_Test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -721,6 +703,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="457">
           <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unittestExample.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrape_Test_Weather.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="17" column="52" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
         </state>
       </provider>
     </entry>

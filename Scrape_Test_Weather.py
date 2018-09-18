@@ -15,7 +15,7 @@ class GetWeather(unittest.TestCase):
     def test_weather_status(self):
         http = urllib3.PoolManager()
         response = http.request('GET', self.api_base_url)
-        soup = BeautifulSoup(response.data, features="lxml")
+        soup = BeautifulSoup(response.data, 'html.parser')
         weather_status = soup.find('div', attrs={"class": 'today_nowcard-phrase'})
         current_weather = weather_status.text.strip("")
         with open("weather_update.csv", 'ab') as csv_file:
