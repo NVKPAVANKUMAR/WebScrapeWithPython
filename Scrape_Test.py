@@ -15,7 +15,7 @@ class TestGetConversionValue(unittest.TestCase):
     def test_currency_value(self):
         query_args = {'from': 'USD', 'to': 'INR', 'amount': '1'}
         data = urllib.urlencode(query_args)
-        response = urllib2.urlopen(self.api_base_url, data)
+        response = urllib.urlopen(self.api_base_url, data)
         soup = BeautifulSoup(response, 'html.parser')
         price_box = soup.find('span', attrs={"class": 'ccOutputRslt'})
         price = price_box.text.strip("INR")

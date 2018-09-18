@@ -6,12 +6,12 @@ import unittest
 import HtmlTestRunner
 
 
-class TestGetWeather(unittest.TestCase):
+class GetWeather(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.api_base_url = 'https://weather.com/en-IN/weather/today/l/INKA0259:1:IN'
 
-    def test_currency_value(self):
+    def test_weather_status(self):
         response = urllib.urlopen(self.api_base_url)
         soup = BeautifulSoup(response, 'html.parser')
         weather_status = soup.find('div', attrs={"class": 'today_nowcard-phrase'})
