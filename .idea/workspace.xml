@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01e9505b-7257-4ceb-aced-eafb19a1a655" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.pytest_cache/v/cache/lastfailed" beforeDir="false" afterPath="$PROJECT_DIR$/.pytest_cache/v/cache/lastfailed" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.pytest_cache/v/cache/nodeids" beforeDir="false" afterPath="$PROJECT_DIR$/.pytest_cache/v/cache/nodeids" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scrape_Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scrape_Test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -56,8 +53,8 @@
       <file leaf-file-name="Scrape_Test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Scrape_Test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="75">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -89,38 +86,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/requirements.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="TestRunner.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestRunner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" column="26" lean-forward="true" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+            <state relative-caret-position="100">
+              <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.yml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="config.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="55">
-              <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+            <state>
+              <caret lean-forward="true" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Scrape_Test_Weather.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Scrape_Test_Weather.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Scrape_Test_Weather.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+            <state relative-caret-position="400">
+              <caret line="16" column="70" selection-start-line="16" selection-start-column="70" selection-end-line="16" selection-end-column="70" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -128,8 +119,8 @@
       <file leaf-file-name="weather_update.csv" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/weather_update.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state>
+              <caret column="20" lean-forward="true" selection-start-column="20" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -157,15 +148,15 @@
       <list>
         <option value="$PROJECT_DIR$/data/worlsapce.xml" />
         <option value="$PROJECT_DIR$/Test_Temp.py" />
-        <option value="$PROJECT_DIR$/Scrape_Test_Weather.py" />
         <option value="$PROJECT_DIR$/ExcelParse.py" />
         <option value="$PROJECT_DIR$/manage.py" />
         <option value="$PROJECT_DIR$/Test_temp.py" />
         <option value="$PROJECT_DIR$/TestRunner.py" />
         <option value="$PROJECT_DIR$/unittestExample.py" />
         <option value="$PROJECT_DIR$/.circleci/config.yml" />
-        <option value="$PROJECT_DIR$/Scrape_Test.py" />
+        <option value="$PROJECT_DIR$/Scrape_Test_Weather.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/Scrape_Test.py" />
       </list>
     </option>
   </component>
@@ -225,7 +216,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.py.test for Scrape_Test_Weather.TestGetWeather.test_currency_value">
+  <component name="RunManager" selected="Python tests.py.test for Scrape_Test.TestGetConversionValue.test_currency_value">
     <configuration name="TestRunner" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="WebScraping" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -244,23 +235,19 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="py.test for Scrape_Test.TestGetConversionValue.test_currency_value" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="WebScraping" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;Scrape_Test.TestGetConversionValue.test_currency_value&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
     <configuration name="py.test for Scrape_Test_Weather.TestGetWeather.test_currency_value" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="WebScraping" />
@@ -305,19 +292,19 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list>
-      <item itemvalue="Python.manage" />
       <item itemvalue="Python.TestRunner" />
       <item itemvalue="Python tests.py.test for unittestExample.TestRequests.test_get" />
       <item itemvalue="Python tests.py.test in Scrape_Test.py" />
       <item itemvalue="Python tests.py.test for Scrape_Test_Weather.TestGetWeather.test_currency_value" />
+      <item itemvalue="Python tests.py.test for Scrape_Test.TestGetConversionValue.test_currency_value" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.py.test for Scrape_Test.TestGetConversionValue.test_currency_value" />
         <item itemvalue="Python tests.py.test for Scrape_Test_Weather.TestGetWeather.test_currency_value" />
         <item itemvalue="Python tests.py.test in Scrape_Test.py" />
         <item itemvalue="Python tests.py.test for unittestExample.TestRequests.test_get" />
         <item itemvalue="Python.TestRunner" />
-        <item itemvalue="Python.manage" />
       </list>
     </recent_temporary>
   </component>
@@ -335,15 +322,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_for_unittestExample_TestRequests_test_post_api - 2018.09.17 at 17h 29m 35s.xml">
-      <configuration name="py.test for unittestExample.TestRequests.test_post_api" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_for_unittestExample_TestRequests_test_post_api - 2018.09.17 at 17h 30m 11s.xml">
-      <configuration name="py.test for unittestExample.TestRequests.test_post_api" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_for_unittestExample_TestRequests_test_get_api - 2018.09.17 at 17h 30m 49s.xml">
-      <configuration name="py.test for unittestExample.TestRequests.test_get_api" configurationId="tests" />
-    </history-entry>
     <history-entry file="py_test_for_unittestExample_TestRequests_test_get_api - 2018.09.17 at 17h 30m 55s.xml">
       <configuration name="py.test for unittestExample.TestRequests.test_get_api" configurationId="tests" />
     </history-entry>
@@ -364,6 +342,15 @@
     </history-entry>
     <history-entry file="py_test_in_Scrape_Test_py - 2018.09.18 at 11h 36m 15s.xml">
       <configuration name="py.test in Scrape_Test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_Scrape_Test_Weather_TestGetWeather_test_currency_value - 2018.09.18 at 11h 51m 36s.xml">
+      <configuration name="py.test for Scrape_Test_Weather.TestGetWeather.test_currency_value" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_Scrape_Test_Weather_TestGetWeather_test_currency_value - 2018.09.18 at 11h 54m 19s.xml">
+      <configuration name="py.test for Scrape_Test_Weather.TestGetWeather.test_currency_value" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_Scrape_Test_TestGetConversionValue_test_currency_value - 2018.09.18 at 11h 55m 09s.xml">
+      <configuration name="py.test for Scrape_Test.TestGetConversionValue.test_currency_value" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -568,6 +555,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="12" column="67" lean-forward="true" selection-start-line="12" selection-start-column="67" selection-end-line="12" selection-end-column="67" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -644,56 +634,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/weather_update.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python27/site-packages/HtmlTestRunner/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python27/site-packages/requests/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestRunner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="26" lean-forward="true" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Python27/Lib/ConfigParser.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4705" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-        </state>
-      </provider>
+    <entry file="file://C:/Python27/Lib/urllib2.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
+    <entry file="file://$PROJECT_DIR$/weather_update.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scrape_Test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/unittestExample.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        <state>
+          <caret column="20" lean-forward="true" selection-start-column="20" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -704,6 +662,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/TestRunner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Test_temp.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9">
@@ -711,13 +683,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Python27/Lib/urllib2.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/unittestExample.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrape_Test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Scrape_Test_Weather.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+        <state relative-caret-position="400">
+          <caret line="16" column="70" selection-start-line="16" selection-start-column="70" selection-end-line="16" selection-end-column="70" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
         </state>
       </provider>
     </entry>

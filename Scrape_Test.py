@@ -1,7 +1,6 @@
 import csv
 import unittest
 import urllib
-import urllib2
 from datetime import datetime
 
 import HtmlTestRunner
