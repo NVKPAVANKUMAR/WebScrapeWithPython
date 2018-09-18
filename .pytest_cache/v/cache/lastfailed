@@ -1,6 +1,4 @@
 {
-  "Test_temp.py::TestRequests::test_get_api": true, 
-  "Test_temp.py::TestRequests::test_post_api": true, 
   "unittestExample.py": true, 
   "unittestExample.py::TestRequests::test_get_api": true, 
   "unittestExample.py::TestRequests::test_mock_api": true, 

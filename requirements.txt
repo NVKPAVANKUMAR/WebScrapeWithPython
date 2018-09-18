@@ -1,3 +1,4 @@
+urllib3 == 1.23
 requests == 2.19.1
 html-TestRunner == 1.1.2
 pyunitreport == 0.1.4
