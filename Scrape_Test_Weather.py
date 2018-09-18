@@ -19,7 +19,7 @@ class GetWeather(unittest.TestCase):
         weather_status = soup.find('div', attrs={"class": 'today_nowcard-phrase'})
         current_weather = weather_status.text
         print(current_weather)
-        with open("weather_update.csv", 'ab') as csv_file:
+        with open("weather_update.csv", 'a', newline='') as csv_file:
             writer = csv.writer(csv_file)
             writer.writerow(["BANGALORE", current_weather, datetime.now().strftime("%d-%m-%y %I:%M %p")])
 

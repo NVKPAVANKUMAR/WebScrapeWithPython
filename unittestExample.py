@@ -26,7 +26,8 @@ def download(self, url, output_file_path):
     handle = open(output_file_path, 'wb')
     for chunk in response.iter_content(chunk_size=512):
         handle.write(chunk)
-    assert os.path.getsize(output_file_path) is not 0
+    print(os.path.getsize(output_file_path))
+    assert os.path.getsize(output_file_path) is not None
 
 
 class TestRequests(unittest.TestCase):
@@ -140,8 +141,8 @@ class TestRequests(unittest.TestCase):
             r = requests.options(url=url)
             print(r.text)
             print(r.headers["allow"])
-        except HTTPError as e:
-            print(e.message)
+        except HTTPError as error:
+            print(error)
 
     def test_parse_json(self):
         with open("data/json_data.json") as f:
@@ -160,8 +161,7 @@ class TestRequests(unittest.TestCase):
     def test_get_api(self):
         url = 'http://pjody.mocklab.io/json/1'
         r = requests.get(url=url)
-        #assert r.status_code == 201
-        self.assertEqual( r.status_code, 200)
+        self.assertEqual(r.status_code, 200)
 
 
 if __name__ == '__main__':
