@@ -158,6 +158,7 @@ class TestRequests(unittest.TestCase):
         except AssertionError as error:
             print("POST API Failed.", error)
 
+    @unittest.skip
     def test_get_api(self):
         url = 'http://pjody.mocklab.io/json/1'
         r = requests.get(url=url)

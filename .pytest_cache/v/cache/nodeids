@@ -1,3 +1,19 @@
 [
-  "unittestExample.py::TestRequests::test_download_file"
+  "unittestExample.py::TestRequests::test_delete",
+  "unittestExample.py::TestRequests::test_download_file",
+  "unittestExample.py::TestRequests::test_get",
+  "unittestExample.py::TestRequests::test_get_api",
+  "unittestExample.py::TestRequests::test_get_singleUser",
+  "unittestExample.py::TestRequests::test_head_usage",
+  "unittestExample.py::TestRequests::test_mock_api",
+  "unittestExample.py::TestRequests::test_options_usage",
+  "unittestExample.py::TestRequests::test_parse_json",
+  "unittestExample.py::TestRequests::test_parse_response",
+  "unittestExample.py::TestRequests::test_pass_parameter_url",
+  "unittestExample.py::TestRequests::test_patch",
+  "unittestExample.py::TestRequests::test_post",
+  "unittestExample.py::TestRequests::test_post_api",
+  "unittestExample.py::TestRequests::test_post_multipart_encoded_file_upload",
+  "unittestExample.py::TestRequests::test_put",
+  "unittestExample.py::TestRequests::test_response_code"
 ]
