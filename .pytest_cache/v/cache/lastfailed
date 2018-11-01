@@ -1,7 +1,7 @@
 {
   "Scrape_Test.py": true, 
-  "unittestExample.py": true, 
-  "unittestExample.py::TestRequests::test_mock_api": true, 
+  "unittestExample.py::TestRequests": true, 
+  "unittestExample.py::TestRequests::test_get_api": true, 
   "unittestExample.py::test_config_parser": true, 
   "unittestExample.py::test_download": true, 
   "unittestExample.py::test_read_json": true
