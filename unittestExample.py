@@ -3,7 +3,7 @@ import unittest
 import HtmlTestRunner
 import requests
 from pprint import pprint
-import ConfigParser
+import configparser
 import os
 from requests import HTTPError
 
@@ -15,29 +15,30 @@ def read_json(self, data_source):
 
 
 def config_parser(self, header, parameter):
-    config = ConfigParser.ConfigParser()
+    config = configparser.ConfigParser()
     config.read("configuration/config.ini")
     return config.get(header, parameter)
 
 
-def download(self, url, output_filepath):
+def download(self, url, output_file_path):
     response = requests.get(url, stream=True)
-    handle = open(output_filepath, 'wb')
+    handle = open(output_file_path, 'wb')
     for chunk in response.iter_content(chunk_size=512):
         handle.write(chunk)
-    assert os.path.getsize(output_filepath) is not 0
+    print(os.path.getsize(output_file_path))
+    assert os.path.getsize(output_file_path) is not None
 
 
 class TestRequests(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):
-        cls.api_baseurl = "https://reqres.in"
+        cls.api_base_url = "https://reqres.in"
 
     def test_get(self):
         usn = config_parser(self, "Credentials", "username")
         pas = config_parser(self, "Credentials", "password")
-        r = requests.get(self.api_baseurl + "/api/login",
+        r = requests.get(self.api_base_url + "/api/login",
                          auth=(usn, pas))
         try:
             assert r.status_code == 200
@@ -45,7 +46,7 @@ class TestRequests(unittest.TestCase):
             print("GET API Failed.", error)
 
     def test_get_singleUser(self):
-        r = requests.get(self.api_baseurl + "/api/users/2")
+        r = requests.get(self.api_base_url + "/api/users/2")
         try:
             assert r.status_code == 200
         except AssertionError as error:
@@ -54,7 +55,7 @@ class TestRequests(unittest.TestCase):
 
     def test_post(self):
         data = read_json(self, 'data/post_data.json')
-        r = requests.post(self.api_baseurl + "/api/users", data)
+        r = requests.post(self.api_base_url + "/api/users", data)
         pprint(r.text)
         try:
             assert r.status_code == 201
@@ -63,7 +64,7 @@ class TestRequests(unittest.TestCase):
 
     def test_put(self):
         data = read_json(self, "data/patch_data.json")
-        r = requests.put(self.api_baseurl + "/api/users/2", data)
+        r = requests.put(self.api_base_url + "/api/users/2", data)
         pprint(r.text)
         try:
             assert r.status_code == 200
@@ -72,7 +73,7 @@ class TestRequests(unittest.TestCase):
 
     def test_patch(self):
         data = read_json(self, "data/patch_data.json")
-        r = requests.patch(self.api_baseurl + "/api/users/2", data)
+        r = requests.patch(self.api_base_url + "/api/users/2", data)
         pprint(r.text)
         try:
             assert r.status_code == 200
@@ -80,7 +81,7 @@ class TestRequests(unittest.TestCase):
             print("PUT API Failed.", error)
 
     def test_delete(self):
-        r = requests.delete(self.api_baseurl + '/api/users/2')
+        r = requests.delete(self.api_base_url + '/api/users/2')
         try:
             assert r.status_code == 204
         except AssertionError as error:
@@ -88,7 +89,7 @@ class TestRequests(unittest.TestCase):
 
     def test_pass_parameter_url(self):
         payload = {'page': '2'}
-        r = requests.get(self.api_baseurl + '/api/users', params=payload)
+        r = requests.get(self.api_base_url + '/api/users', params=payload)
         print(r.headers)
         print("------------------------------------------------------------------")
         print(r.request.headers)
@@ -128,9 +129,9 @@ class TestRequests(unittest.TestCase):
         assert r.status_code == 200
 
     def test_download_file(self):
-        url = "https://demo.silverstripe.org/Security/login?BackURL=%2Fadmin%2Fpages%2F"
+        demo_url = "https://demo.silverstripe.org/Security/login?BackURL=%2Fadmin%2Fpages%2F"
         google_url = 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png'
-        download(self, url, "downloaded_data.html")
+        download(self, demo_url, "downloaded_data.html")
         download(self, google_url, 'google_logo.jpg')
 
     def test_mock_api(self):
@@ -139,8 +140,8 @@ class TestRequests(unittest.TestCase):
             r = requests.options(url=url)
             print(r.text)
             print(r.headers["allow"])
-        except HTTPError as e:
-            print(e.message)
+        except HTTPError as error:
+            print(error)
 
     def test_parse_json(self):
         with open("data/json_data.json") as f:
@@ -149,17 +150,18 @@ class TestRequests(unittest.TestCase):
 
     def test_post_api(self):
         data = {'name': ['football', 'basketball'], 'job': ['leader', 'follower']}
-        r = requests.post(self.api_baseurl + "/api/users", data)
+        r = requests.post(self.api_base_url + "/api/users", data)
         print(r.text)
         try:
             assert r.status_code == 201
         except AssertionError as error:
             print("POST API Failed.", error)
 
+    @unittest.skip
     def test_get_api(self):
         url = 'http://pjody.mocklab.io/json/1'
         r = requests.get(url=url)
-        assert r.status_code == 200
+        self.assertEqual(r.status_code, 200)
 
 
 if __name__ == '__main__':
