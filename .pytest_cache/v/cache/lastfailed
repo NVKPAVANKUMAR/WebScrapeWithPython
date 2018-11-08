@@ -1,6 +1,5 @@
 {
   "ExcelHandle.py::ExcelHandle::test_excel_handler": true,
-  "unittestExample.py::TestRequests": true,
   "unittestExample.py::test_config_parser": true,
   "unittestExample.py::test_download": true,
   "unittestExample.py::test_read_json": true
