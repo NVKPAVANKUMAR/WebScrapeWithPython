@@ -5,7 +5,6 @@ import requests
 from pprint import pprint
 import configparser
 import os
-
 from requests import HTTPError
 
 
