@@ -1,8 +1,6 @@
 import unittest
 from pprint import pprint
-
 import requests
-
 from unittestExample import config_parser
 
 
