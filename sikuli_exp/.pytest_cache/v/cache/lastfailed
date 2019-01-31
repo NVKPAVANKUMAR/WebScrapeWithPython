@@ -1,3 +1,4 @@
 {
-  "Sikuli_TC.py": true
+  "Sikuli_TC.py::TestSikuli": true,
+  "Sikuli_TC.py::TestSikuli::test_doLogin": true
 }

@@ -1,3 +1,4 @@
 [
-  "unittestExample.py::TestRequests::test_post_api"
+  "RequestsLibrary.py::TestRequests::test_JsonServer", 
+  "RequestsLibrary.py::TestRequests::test_get"
 ]
