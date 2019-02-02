@@ -8,19 +8,19 @@ import os
 from requests import HTTPError
 
 
-def read_json(self, data_source):
+def read_json(data_source):
     with open(data_source) as datafile:
         data = json.load(datafile)
         return data
 
 
-def config_parser(self, header, parameter):
+def config_parser(header, parameter):
     config = configparser.ConfigParser()
     config.read("configuration/config.ini")
     return config.get(header, parameter)
 
 
-def download(self, url, output_file_path):
+def download(url, output_file_path):
     response = requests.get(url, stream=True)
     handle = open(output_file_path, 'wb')
     for chunk in response.iter_content(chunk_size=512):
@@ -36,8 +36,8 @@ class TestRequests(unittest.TestCase):
         cls.api_base_url = "https://reqres.in"
 
     def test_get(self):
-        usn = config_parser(self, "Credentials", "username")
-        pas = config_parser(self, "Credentials", "password")
+        usn = config_parser("Credentials", "username")
+        pas = config_parser("Credentials", "password")
         r = requests.get(self.api_base_url + "/api/login",
                          auth=(usn, pas))
         try:
@@ -54,7 +54,7 @@ class TestRequests(unittest.TestCase):
         print(r.content)
 
     def test_post(self):
-        data = read_json(self, 'data/post_data.json')
+        data = read_json('data/post_data.json')
         r = requests.post(self.api_base_url + "/api/users", data)
         pprint(r.text)
         try:
@@ -63,7 +63,7 @@ class TestRequests(unittest.TestCase):
             print("POST API Failed.", error)
 
     def test_put(self):
-        data = read_json(self, "data/patch_data.json")
+        data = read_json("data/patch_data.json")
         r = requests.put(self.api_base_url + "/api/users/2", data)
         pprint(r.text)
         try:
@@ -72,7 +72,7 @@ class TestRequests(unittest.TestCase):
             print("PUT API Failed.", error)
 
     def test_patch(self):
-        data = read_json(self, "data/patch_data.json")
+        data = read_json("data/patch_data.json")
         r = requests.patch(self.api_base_url + "/api/users/2", data)
         pprint(r.text)
         try:
@@ -131,8 +131,8 @@ class TestRequests(unittest.TestCase):
     def test_download_file(self):
         demo_url = "https://demo.silverstripe.org/Security/login?BackURL=%2Fadmin%2Fpages%2F"
         google_url = 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png'
-        download(self, demo_url, "downloaded_data.html")
-        download(self, google_url, 'google_logo.jpg')
+        download(demo_url, "downloaded_data.html")
+        download(google_url, 'google_logo.jpg')
 
     def test_mock_api(self):
         try:
@@ -150,7 +150,7 @@ class TestRequests(unittest.TestCase):
 
     def test_post_api(self):
         data = {'name': ['football', 'basketball'], 'job': ['leader', 'follower']}
-        r = requests.post(self.api_base_url + "/api/users", data)
+        r = requests.post(self.api_base_url + "/api/users", data, verify=False)
         print(r.text)
         try:
             assert r.status_code == 201

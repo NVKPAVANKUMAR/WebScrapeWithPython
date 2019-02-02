@@ -1,3 +1,10 @@
 {
+<<<<<<< HEAD
   "unittestExample.py::TestRequests": true
+=======
+  "RequestsLibrary.py::test_get": true, 
+  "Scrape_Test_Currency.py::TestGetConversionValue::test_currency_value": true, 
+  "Test_TextParser.py": true, 
+  "sikuli_exp/Sikuli_TC.py::TestSikuli": true
+>>>>>>> 6e23f4babb111933cee7f63fdb3eeb0c9b1b889f
 }

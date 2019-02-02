@@ -1,3 +1,8 @@
 [
+<<<<<<< HEAD
   "Parse_XML.py::TestParseXml::test_xml_data"
+=======
+  "RequestsLibrary.py::TestRequests::test_JsonServer", 
+  "RequestsLibrary.py::TestRequests::test_get"
+>>>>>>> 6e23f4babb111933cee7f63fdb3eeb0c9b1b889f
 ]
