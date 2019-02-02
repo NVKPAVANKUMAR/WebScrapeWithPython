@@ -1,8 +1,8 @@
-from selenium import webdriver
 from applitools.eyes import Eyes
+from selenium import webdriver
+
 
 class HelloWorld:
-
     eyes = Eyes()
 
     # Initialize the eyes SDK and set your private API key.
@@ -15,7 +15,7 @@ class HelloWorld:
 
         # Start the test and set the browser's viewport size to 800x600.
         eyes.open(driver=driver, app_name='Hello World!', test_name='My first Selenium Python test!',
-        viewport_size={'width': 800, 'height': 600})
+                  viewport_size={'width': 800, 'height': 600})
 
         # Navigate the browser to the "hello world!" web-site.
         driver.get('https://applitools.com/helloworld')
