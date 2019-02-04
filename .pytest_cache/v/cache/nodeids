@@ -1,4 +1,3 @@
 [
-  "RequestsLibrary.py::TestRequests::test_JsonServer", 
-  "RequestsLibrary.py::TestRequests::test_get"
+  "Scrape_GoldPrice.py::TestGoldPriceValue::test_gold_price"
 ]
