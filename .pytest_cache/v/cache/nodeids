@@ -1,7 +1,3 @@
 [
-<<<<<<< HEAD
-  "RequestsLibrary.py::TestRequests::test_JsonServer"
-=======
   "Scrape_GoldPrice.py::TestGoldPriceValue::test_gold_price"
->>>>>>> bbb794eae0ebfe30238a206391859284131052ea
 ]

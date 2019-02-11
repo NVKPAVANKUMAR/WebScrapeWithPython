@@ -43,16 +43,14 @@ class TestGoldPriceValue(unittest.TestCase):
         print(url)
 
     def test_gold_price(self):
-
         global city_list
         for i in range(len(city_list) - 1):
             soup = fetch_further_response(self.base_url, city_name=city_list[i])
             price_box = soup.find('strong', attrs={'id': "el"})
             price = price_box.text.replace("₹ ", "")
-            with open("GoldPrice.csv", 'a', newline='') as csv_file:
+            with open("GoldPrice.csv", 'a', encoding='utf-8', newline='') as csv_file:
                 writer = csv.writer(csv_file)
                 writer.writerow([datetime.now(), city_list[i], price])
-
 
 
 if __name__ == '__main__':
