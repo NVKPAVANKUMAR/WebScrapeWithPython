@@ -1,17 +1,7 @@
 {
-<<<<<<< HEAD
-  "RequestsLibrary.py::test_get": true,
   "Scrape_GoldPrice.py::TestGoldPriceValue::test_gold_price": true,
-  "Scrape_Test_Currency.py::TestGetConversionValue::test_currency_value": true,
-  "Test_TextParser.py": true,
-=======
-<<<<<<< HEAD
-  "unittestExample.py::TestRequests": true
-=======
-  "RequestsLibrary.py::test_get": true, 
-  "Scrape_Test_Currency.py::TestGetConversionValue::test_currency_value": true, 
-  "Test_TextParser.py": true, 
->>>>>>> e25d91cf47ce275001e3930116bbf77df1d24325
-  "sikuli_exp/Sikuli_TC.py::TestSikuli": true
->>>>>>> 6e23f4babb111933cee7f63fdb3eeb0c9b1b889f
+  "unittestExample.py::TestRequests::test_download_file": true,
+  "unittestExample.py::TestRequests::test_mock_api": true,
+  "unittestExample.py::TestRequests::test_options_usage": true,
+  "unittestExample.py::TestRequests::test_post_multipart_encoded_file_upload": true
 }

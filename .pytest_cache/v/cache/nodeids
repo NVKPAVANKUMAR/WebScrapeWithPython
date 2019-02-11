@@ -1,12 +1,3 @@
 [
-<<<<<<< HEAD
-  "Scrape_GoldPrice.py::TestGoldPriceValue::test_gold_price"
-=======
-<<<<<<< HEAD
-  "Parse_XML.py::TestParseXml::test_xml_data"
-=======
-  "RequestsLibrary.py::TestRequests::test_JsonServer", 
-  "RequestsLibrary.py::TestRequests::test_get"
->>>>>>> 6e23f4babb111933cee7f63fdb3eeb0c9b1b889f
->>>>>>> e25d91cf47ce275001e3930116bbf77df1d24325
+  "RequestsLibrary.py::TestRequests::test_JsonServer"
 ]

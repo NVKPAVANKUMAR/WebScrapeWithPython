@@ -6,6 +6,12 @@ import unittest
 import HtmlTestRunner
 
 
+def write_excel(filepath, firstarg):
+    with open(filepath, 'a', newline='') as csv_file:
+        writer = csv.writer(csv_file)
+        writer.writerow(["USD2INR", firstarg, datetime.now()])
+
+
 class GetWeather(unittest.TestCase):
     @classmethod
     def setUpClass(cls):

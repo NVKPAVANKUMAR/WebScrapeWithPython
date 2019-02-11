@@ -14,7 +14,6 @@ class TestGoldPriceValue(unittest.TestCase):
     def test_gold_price(self):
         http = urllib3.PoolManager()
         response = http.request("POST", self.base_url)
-        print(response.data)
         soup = BeautifulSoup(response.data, "html.parser")
         date_box = soup.find('div', attrs={'id': "current-date"})
         price_box = soup.find('div', attrs={'id': "el"})

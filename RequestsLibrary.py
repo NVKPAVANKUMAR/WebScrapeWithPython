@@ -23,7 +23,7 @@ class TestRequests(unittest.TestCase):
             print(self.r.text)
             print(self.r.content)
 
-    @pytest.mark.skip
+    @pytest.mark.skipif(1 == 2, reason="Condition passed")
     def test_JsonServer(self):
         self.r = requests.options("http://localhost:3000/posts")
         pprint(self.r.status_code)
